@@ -5,7 +5,7 @@ def join_nested_strings(src)
    element_index = 0
    while element_index < src[row_index].count do
      if src[row_index][element_index].class == String
-      array_of_only_strings << src[row_index][element_index] + " "
+      array_of_only_strings << src[row_index][element_index] + ""
    end
    element_index += 1
  end
