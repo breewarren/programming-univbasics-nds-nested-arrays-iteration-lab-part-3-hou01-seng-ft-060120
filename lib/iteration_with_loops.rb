@@ -11,4 +11,5 @@ def join_nested_strings(src)
  end
  row_index += 1
 end
-array_of_only_strings.join
+array_of_only_strings
+end
